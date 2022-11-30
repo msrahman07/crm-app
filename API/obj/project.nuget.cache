@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "3oPTvDA4QbbmQ37e6NVnxten2e9dBW5pxAHbXSOINLEd93c7OI3Lpdpda7ZpdZZbKoghUT32D1wl/bXKgdqDkw==",
+  "success": true,
+  "projectFilePath": "/home/shahriar/Desktop/Codes/projects/crm-app/API/API.csproj",
+  "expectedPackageFiles": [
+    "/home/shahriar/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/home/shahriar/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/home/shahriar/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/home/shahriar/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/home/shahriar/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/home/shahriar/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
