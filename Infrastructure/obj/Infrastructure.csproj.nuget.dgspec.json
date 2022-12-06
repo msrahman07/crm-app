@@ -4,14 +4,14 @@
     "/home/shahriar/Desktop/Codes/projects/crm-app/Infrastructure/Infrastructure.csproj": {}
   },
   "projects": {
-    "/home/shahriar/Desktop/Codes/projects/crm-app/Infrastructure/Infrastructure.csproj": {
+    "/home/shahriar/Desktop/Codes/projects/crm-app/Core/Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/shahriar/Desktop/Codes/projects/crm-app/Infrastructure/Infrastructure.csproj",
-        "projectName": "Infrastructure",
-        "projectPath": "/home/shahriar/Desktop/Codes/projects/crm-app/Infrastructure/Infrastructure.csproj",
+        "projectUniqueName": "/home/shahriar/Desktop/Codes/projects/crm-app/Core/Core.csproj",
+        "projectName": "Core",
+        "projectPath": "/home/shahriar/Desktop/Codes/projects/crm-app/Core/Core.csproj",
         "packagesPath": "/home/shahriar/.nuget/packages/",
-        "outputPath": "/home/shahriar/Desktop/Codes/projects/crm-app/Infrastructure/obj/",
+        "outputPath": "/home/shahriar/Desktop/Codes/projects/crm-app/Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/shahriar/.nuget/NuGet/NuGet.Config"
@@ -37,6 +37,77 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/shahriar/Desktop/Codes/projects/crm-app/Infrastructure/Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/shahriar/Desktop/Codes/projects/crm-app/Infrastructure/Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "/home/shahriar/Desktop/Codes/projects/crm-app/Infrastructure/Infrastructure.csproj",
+        "packagesPath": "/home/shahriar/.nuget/packages/",
+        "outputPath": "/home/shahriar/Desktop/Codes/projects/crm-app/Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/shahriar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/shahriar/Desktop/Codes/projects/crm-app/Core/Core.csproj": {
+                "projectPath": "/home/shahriar/Desktop/Codes/projects/crm-app/Core/Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Google.Apis": {
+              "target": "Package",
+              "version": "[1.58.0, )"
+            },
+            "Google.Apis.Auth": {
+              "target": "Package",
+              "version": "[1.58.0, )"
+            },
+            "Google.Apis.Gmail.v1": {
+              "target": "Package",
+              "version": "[1.58.0.2650, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

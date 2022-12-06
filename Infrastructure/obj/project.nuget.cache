@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "wBacX8K4mbdNM3K9FClTzbEmew/CVAmoZdoVB77xxlYPDA6HzqlwNAUDaJZGZ+XtaIl9Gc0nYpm+uiK3OqPYSA==",
+  "dgSpecHash": "AAEd4NCq+DNQeJz/DBaq/k/QzzipjeoWjv7Nz4RWCBOpg0vV6qy1UwyHfJIVdvRwO6jhhSFfd1PHc1uE/cyQyQ==",
   "success": true,
   "projectFilePath": "/home/shahriar/Desktop/Codes/projects/crm-app/Infrastructure/Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/shahriar/.nuget/packages/google.apis/1.58.0/google.apis.1.58.0.nupkg.sha512",
+    "/home/shahriar/.nuget/packages/google.apis.auth/1.58.0/google.apis.auth.1.58.0.nupkg.sha512",
+    "/home/shahriar/.nuget/packages/google.apis.core/1.58.0/google.apis.core.1.58.0.nupkg.sha512",
+    "/home/shahriar/.nuget/packages/google.apis.gmail.v1/1.58.0.2650/google.apis.gmail.v1.1.58.0.2650.nupkg.sha512",
+    "/home/shahriar/.nuget/packages/newtonsoft.json/13.0.2/newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
   "logs": []
 }
